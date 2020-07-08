@@ -1,0 +1,59 @@
+body {
+  background-color: #026670;
+  font-family: "EB Garamond" serif;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dashed;
+  border-color: #EDEAE5;
+  border-width: 3px;
+  width: 20%;
+  opacity: 0.7;
+}
+
+.header {
+  width: 50%;
+  margin: auto;
+}
+
+.centered-div {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+p, li, td, h1, h3 {
+  color: #EDEAE5;
+  /* color: #e7dfd5; */
+}
+
+th {
+  color: #FEF9C7;
+}
+
+a:link {
+  color: #FCE181;
+}
+
+a:visited {
+  color: #6FEDD7;
+}
+/*
+Doesn't pass CB. friendliness test; visited link looks close to plain text with
+prot. CB. Pallette is usable right now since this doesn't actually affect the
+usability of the site, but needs to be fixed to actually offer the visited link
+highlighting feature to all users.
+ref:
+https://davidmathlogic.com/colorblind/#%23026670-%23EDEAE5-%23FEF9C7-%23FCE181-%236FEDD7
+*/
+
+
+/*
+https://www.awwwards.com/sites/qed-group
+#026670
+#6FEDD7
+#FEF9C7
+#FCE181
+#EDEAE5
+*/
