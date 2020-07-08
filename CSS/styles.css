@@ -1,12 +1,12 @@
 body {
-  background-color: #026670;
+  background-color: #CBF3F9;
   font-family: "EB Garamond" serif;
 }
 
 hr {
   border-style: none;
   border-top-style: dashed;
-  border-color: #EDEAE5;
+  /* border-color: #F9E9B9; */
   border-width: 3px;
   width: 20%;
   opacity: 0.7;
@@ -15,6 +15,12 @@ hr {
 .header {
   width: 50%;
   margin: auto;
+  height: 50%;
+}
+
+.centered-table {
+  margin: auto;
+  text-align: center;
 }
 
 .centered-div {
@@ -23,21 +29,28 @@ hr {
   text-align: center;
 }
 
-p, li, td, h1, h3 {
-  color: #EDEAE5;
-  /* color: #e7dfd5; */
+/* p, li, td, h1, h3 {
+
+} */
+
+ul {
+  display: inline-table;
 }
 
-th {
-  color: #FEF9C7;
+li {
+  display: inline;
+}
+
+.padded-td {
+  padding:0 15px;
 }
 
 a:link {
-  color: #FCE181;
+  /* color: #FCE181; */
 }
 
 a:visited {
-  color: #6FEDD7;
+  /* color: #6FEDD7; */
 }
 /*
 Doesn't pass CB. friendliness test; visited link looks close to plain text with
